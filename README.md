@@ -16,16 +16,12 @@ This project implements a **Maze Solver** using **Python**, **OpenCV**, and the 
 
 ## 🧠 How It Works
 
-1. **Image Preprocessing**:
-   - The maze image is converted to grayscale
-   - Thresholding is applied to convert it into a binary matrix representing walls and paths
-
-2. **A\* Algorithm**:
+1. **A\* Algorithm**:
    - A heuristic-based search (using Manhattan or Euclidean distance)
    - Explores nodes based on the cost to reach them and an estimated cost to the goal
    - Guarantees the shortest path if the heuristic is admissible
 
-3. **Visualization**:
+2. **Visualization**:
    - Draws the calculated shortest path on the original maze image using OpenCV drawing functions
 
 ---
